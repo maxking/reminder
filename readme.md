@@ -8,6 +8,7 @@ Compile the code by
     `erl -make`
 
 Usage:
+```erlang
 	 1> evserv:start().
  	 <0.34.0>
  	 2> evserv:subscribe(self()).
@@ -22,3 +23,4 @@ Usage:
  	 ok
  	 7> evserv:listen(2000).
  	 [{done,"Hey there2","test"}]
+```
